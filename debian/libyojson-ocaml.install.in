@@ -1,0 +1,3 @@
+@OCamlStdlibDir@/yojson/META
+@OCamlStdlibDir@/yojson/*.cma
+DYN: @OCamlStdlibDir@/yojson/*.cmxs

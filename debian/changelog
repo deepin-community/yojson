@@ -1,5 +1,128 @@
-template-repository (1.0-1) unstable; urgency=medium
+yojson (2.1.2-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 14 Dec 2023 07:12:27 +0100
+
+yojson (2.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Use ocaml_dune DH buildsystem
+
+ -- Stéphane Glondu <glondu@debian.org>  Thu, 17 Aug 2023 07:33:53 +0200
+
+yojson (2.1.0-1) unstable; urgency=medium
+
+  * Fix d/watch.
+  * New upstream release.
+  * Bump standards-version to 4.6.2
+  * Fix compilation with recent dune
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 06 Jul 2023 14:18:28 +0200
+
+yojson (2.0.2-2) unstable; urgency=medium
+
+  * Re-upload to unstable.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 23 Oct 2022 22:04:46 +0200
+
+yojson (2.0.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Declare d/rules doesn't require root.
+  * Switch from d/compat to b-dep on debhelper-compat and level 13.
+  * Bump standards-version to 4.6.1.
+  * Add myself to uploaders (Closes: #934714).
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 12 Aug 2022 12:42:30 +0200
+
+yojson (1.7.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update Homepage and debian/watch
+  * Bump debhelper compat level to 12
+  * Bump Standards-Version to 4.4.0
+  * Remove Hendrik from Uploaders
+  * Update Vcs-*
+
+ -- Stéphane Glondu <glondu@debian.org>  Mon, 12 Aug 2019 12:54:16 +0200
+
+yojson (1.3.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump Standards-Version to 3.9.8
+  * Fix Vcs-Git
+
+ -- Stéphane Glondu <glondu@debian.org>  Wed, 01 Jun 2016 11:52:20 +0200
+
+yojson (1.3.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update Vcs-*
+
+ -- Stéphane Glondu <glondu@debian.org>  Wed, 27 Jan 2016 17:40:44 +0100
+
+yojson (1.2.3-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update debian/watch
+
+ -- Stéphane Glondu <glondu@debian.org>  Thu, 10 Sep 2015 12:00:46 +0200
+
+yojson (1.1.8-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix Vcs-* URLs
+  * Bump Standards-Version to 3.9.6
+
+ -- Stéphane Glondu <glondu@debian.org>  Mon, 10 Aug 2015 20:21:27 +0200
+
+yojson (1.1.8-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump Standards-Version to 3.9.5
+
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 01 Feb 2014 11:15:49 +0100
+
+yojson (1.1.7-1) unstable; urgency=low
+
+  [ Sylvain Le Gall ]
+  * Remove Sylvain Le Gall from uploaders
+
+  [ Hendrik Tews ]
+  * updated watch
+  * new upstream version
+  * add myself as uploader
+  * renamed and adapt patch
+  * bump debhelper compat level and standards version
+  * update homepage, Vcs fields, package description and dependencies
+  * update copyright
+  * install api doc in /usr/share/doc/..../api/html
+  * update man page
+
+ -- Hendrik Tews <hendrik@askra.de>  Fri, 14 Jun 2013 10:14:02 +0200
+
+yojson (1.0.3-1) unstable; urgency=low
+
+  * Team upload
+  * New upstream release
+
+ -- Mehdi Dogguy <mehdi@debian.org>  Tue, 03 Jan 2012 17:29:20 +0100
+
+yojson (1.0.2-1) unstable; urgency=low
+
+  * Team upload
+  * New upstream release
+  * Bump Standards-Version to 3.9.2
+
+ -- Stéphane Glondu <glondu@debian.org>  Mon, 11 Jul 2011 00:35:05 +0200
+
+yojson (0.8.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #605681)
+
+ -- Sylvain Le Gall <gildor@debian.org>  Sun, 05 Dec 2010 00:41:55 +0100
