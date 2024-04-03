@@ -1,0 +1,11 @@
+@OCamlStdlibDir@/yojson/*dune*
+@OCamlStdlibDir@/yojson/*opam*
+@OCamlStdlibDir@/yojson/*.ml
+@OCamlStdlibDir@/yojson/*.cmi
+@OCamlStdlibDir@/yojson/*.cmt
+@OCamlStdlibDir@/yojson/*.cmti
+@OCamlStdlibDir@/yojson/*.mli
+OPT: @OCamlStdlibDir@/yojson/*.a
+OPT: @OCamlStdlibDir@/yojson/*.cmxa
+OPT: @OCamlStdlibDir@/yojson/*.cmx
+/usr/bin/ydump

@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
+# -*- makefile -*-
+
+include /usr/share/ocaml/ocamlvars.mk
 
 %:
-	dh $@
+	dh $@ --with ocaml --buildsystem ocaml_dune
